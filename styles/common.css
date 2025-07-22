@@ -1,4 +1,48 @@
 
+/* 헤더================================================ */
+header {}
+
+/* 띠배너 */
+header .line_bnr {max-width: 100%; min-width: 430px; margin: 0 auto; background-color: #000;}
+header .line_bnr * {color: #fff; font-size: 0.75rem;}
+header .line_bnr .container {width: calc(100% - 70px); height: 25px; display: flex; justify-content: space-between; position: relative; margin: 0 auto;}
+header .line_bnr span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+header .line_bnr button {position: absolute; top: 50%; right: 35px; transform: translateY(-50%); display: flex; align-items: center;}
+header .line_bnr button img {margin-left: 5px;}
+
+/* 검색창 */
+.gnb {background-color: #129C49;}
+.gnb .container {
+    max-width: 1200px; min-width: 430px; margin: 0 auto; padding: 25px 0px;
+    display: flex; justify-content: space-between; align-items: center;
+    position: relative;
+}
+.gnb h1 {}
+.gnb h1 a {}
+.gnb .search {
+    width: 40%; background-color: #fff; height: 40px; border-radius: 50px;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 20px;
+}
+.gnb .search input {font-size: 0.875rem; width: 94%;}
+.gnb .search input::placeholder {color: #ACACAC;}
+.gnb .search input button {text-align: right;}
+.gnb .search input button img {}
+.gnb .container > p {display: flex; align-items: center;}
+.gnb .container > p * {color: #fff; font-size: 0.875rem;}
+.gnb .container > p a {display: flex; align-items: center;}
+.gnb .container > p a::after {content: ''; margin: 10px; width: 1px; height: 13px; display: block; background-color: #fff;}
+.gnb .container > p a:last-of-type::after {display: none;}
+
+/* 메뉴 */
+.menu {}
+.menu .container {
+    max-width: 1200px; min-width: 430px; margin: 0 auto; padding: 15px 0px; height: 60px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.menu .container .left {display: flex; gap: 20px; align-items: center;}
+.menu .container .left a {font-weight: 600; line-height: 30px;}
+.menu .container .right {display: flex; gap: 20px; align-items: center;}
+
 /* 풋터================================================ */
 footer {background: #000;}
 footer .container {

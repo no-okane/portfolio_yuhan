@@ -1,7 +1,7 @@
 const mainslide = new Swiper ('#mainslide',{
     loop:true,
      slidesPerView: 2, 
-     spaceBetween: 700,
+     spaceBetween: 800,
     autoplay:{
         delay:3500,
         disableOnInteraction: false,
