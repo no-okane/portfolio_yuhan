@@ -169,7 +169,7 @@ body * {transition: all 0.3s; overflow: hidden;}
 #timesale .swiper-wrapper .swiper-slide .product .txt .price > span:last-of-type em {font-size: 1.125rem; font-weight: 600;}
 
 .row5 .container .contents .swiper-button-prev,
-.row5 .container .contents .swiper-button-next {color: #000; width: 35%; top: 58%;}
+.row5 .container .contents .swiper-button-next {color: #000; width: 33%; top: 58%;}
 .row5 .container .contents .swiper-button-prev::after,
 .row5 .container .contents .swiper-button-next::after {font-size: 24px;}
 
@@ -241,7 +241,7 @@ body * {transition: all 0.3s; overflow: hidden;}
 #new .swiper-wrapper .swiper-slide .product .txt .price span em {font-weight: 600;}
 
 .row7 .container .contents .swiper-button-prev,
-.row7 .container .contents .swiper-button-next {color: #000; width: 35%; top: ;}
+.row7 .container .contents .swiper-button-next {color: #000; width: 33%; top: ;}
 .row7 .container .contents .swiper-button-prev::after,
 .row7 .container .contents .swiper-button-next::after {font-size: 24px;}
 
