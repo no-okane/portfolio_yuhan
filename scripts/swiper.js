@@ -1,18 +1,18 @@
-const mainslide = new Swiper ('#mainslide',{
-    loop:true,
-     slidesPerView: 2, 
-     spaceBetween: 800,
-    autoplay:{
-        delay:3500,
+const mainslide = new Swiper('#mainslide', {
+    loop: true,
+    slidesPerView: 2,  // 기본값: 430px 이상에서 2개씩 보이게
+    spaceBetween: 700,  // 기본값: 430px 이상에서 슬라이드 간격 700
+    autoplay: {
+        delay: 3500,
         disableOnInteraction: false,
     },
-    speed:3000,
-    navigation:{
-        prevEl:'#mainslide ~ .swiper-button-prev',
-        nextEl:'#mainslide ~ .swiper-button-next',
+    speed: 3000,
+    navigation: {
+        prevEl: '#mainslide ~ .swiper-button-prev',
+        nextEl: '#mainslide ~ .swiper-button-next',
     },
-    scrollbar:{
-        el:'#mainslide .swiper-scrollbar',
+    scrollbar: {
+        el: '#mainslide .swiper-scrollbar',
         draggable: true,
         hide: false,
     },
@@ -21,7 +21,14 @@ const mainslide = new Swiper ('#mainslide',{
         type: "fraction",
         clickable: true,
     },
-})
+    breakpoints: {
+        430: {  // 430px 이하에서만 반응형 변경
+            slidesPerView: 1,  // 430px 이하에서는 슬라이드 1개씩
+            spaceBetween: 0,    // 슬라이드 간 간격 0
+        }
+    },
+});
+
 
 console.log('Next 버튼:', document.querySelector('#mainslide ~ .swiper-button-next'));
 console.log('스크롤바:', document.querySelector('#mainslide .swiper-scrollbar'));

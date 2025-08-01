@@ -6,8 +6,9 @@ header {}
 header .line_bnr {max-width: 100%; min-width: 430px; margin: 0 auto; background-color: #000;}
 header .line_bnr * {color: #fff; font-size: 0.75rem;}
 header .line_bnr .container {width: calc(100% - 70px); height: 25px; display: flex; justify-content: space-between; position: relative; margin: 0 auto;}
-header .line_bnr span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-header .line_bnr button {position: absolute; top: 50%; right: 35px; transform: translateY(-50%); display: flex; align-items: center;}
+header .line_bnr .container > span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+header .line_bnr button {position: absolute; top: 50%; right: 35px; transform: translateY(-50%); align-items: center; display: flex; width: ;}
+header .line_bnr button span {}
 header .line_bnr button img {margin-left: 5px;}
 
 /* 검색창 */
